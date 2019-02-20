@@ -1,0 +1,160 @@
+label{
+	font-size:large;
+	color:rgb(255, 245, 232);
+}
+
+header{
+	width:100%;
+	background: rgba(255,0,0,0.85);
+	color:rgb(255, 245, 232);
+}
+
+h1{
+	border:2px black solid;
+	text-align:center;
+	
+}
+
+#Container{
+	width:100%;
+}
+
+#livesearch{
+	overflow : scroll;
+	height:auto;
+	min-height:1em;
+	max-height:7em;
+	width:14.7%;
+	background : rgba(255,255,255,0.9);
+	position : absolute;
+	z-index : 9999;
+	margin-left: 5.6%;
+	visibility: hidden;
+	overflow-x: hidden;
+}
+
+form{
+	text-align:left;
+	background:rgba(255,0,0,0.8);
+	width:24.5%;
+	border:solid 2px black;
+	padding-left:5px;
+}
+
+section{
+	width:30%;
+	float:left;
+	margin-right:3%;
+	display: flex;
+	justify-content: center;
+}
+
+table, tr, th, td{
+	border:2px black solid;
+	color:black;
+	font-size:large;
+	padding:3px;
+	
+}
+
+table{
+	background: rgba(255, 255, 255,0.7);
+	align-self:center;
+}
+
+th{
+	background: rgba(112, 94, 87,0.85);
+	color: rgb(255, 245, 232);
+}
+
+body{
+	background-image: url("../images/fondEssai.png");
+	background-position: top center;
+}
+
+.Fire{
+	background: rgba(255, 0, 0,0.7);
+}
+
+.Water{
+	background: rgba(0, 191, 255,0.7);
+}
+
+.Grass{
+	background: rgba(127, 255, 0,0.7);
+}
+
+.Poison{
+	background: rgba(139, 0, 139,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Ground{
+	background: rgba(205, 133, 63,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Steel{
+	background: rgba(176, 196, 222,0.7);
+}
+
+.Flying{
+	background: rgba(173, 216, 230,0.7);
+}
+
+.Normal{
+	background: rgba(230, 230, 250,0.7);
+}
+
+.Fighting{
+	background: rgba(178, 34, 34,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Electric{
+	background: rgba(255, 215, 0,0.7);
+}
+
+.Psychic{
+	background: rgba(255, 20, 147,0.7);
+}
+
+.Rock{
+	background: rgba(160, 82, 45,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Ice{
+	background: rgba(64, 224, 208,0.7);
+}
+
+.Bug{
+	background: rgba(128, 128, 0,0.7);
+}
+
+.Dragon{
+	background: rgba(102, 51, 153,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Ghost{
+	background: rgba(128, 0, 128,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Dark{
+	background: rgba(105, 105, 105,0.7);
+	color:rgb(255, 245, 232);
+}
+
+.Fairy{
+	background: rgba(255, 105, 180,0.7);
+}
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color:black;
+}

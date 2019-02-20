@@ -1,0 +1,223 @@
+label{
+	font-size:large;
+	color:rgb(255, 245, 232);
+}
+
+h1{
+	border:2px solid black;
+	font-size : xx-large;
+	text-align:center;
+	width:50%;
+	margin-left:25%;
+}
+
+h2{
+	display:inline-block;
+	border : 2px solid black;
+	padding : 5px;
+}
+
+h3{
+	color:rgb(255, 245, 232);
+}
+
+body{
+	background-image: url("../images/fondEssai.png");
+	background-position: top center;
+}
+
+table, tr, th, td{
+	border:2px black solid;
+	color:black;
+	font-size:large;
+	padding:3px;	
+}
+
+tr, td{
+	background: rgb(255,255,255);
+}
+
+form{
+	text-align:left;
+	background:rgb(255,0,0);
+	width:24.5%;
+	border:solid 2px black;
+	padding-left:5px;
+}
+
+#livesearch{
+	overflow : scroll;
+	height:auto;
+	min-height:1em;
+	max-height:7em;
+	width:14.7%;
+	background : rgb(255,255,255);
+	position : absolute;
+	z-index : 9999;
+	margin-left: 5.6%;
+	visibility: hidden;
+	overflow-x: hidden;
+}
+
+#RetourAccueil a:visited, #RetourAccueil a{
+	color:rgb(255, 245, 232);
+}
+
+#RetourAccueil{
+	background-color : rgba(255, 0, 0, 0.7);
+	width:60%;
+	text-align: center;
+	margin-left:20%;
+	margin-top:0px;
+	
+}
+
+#RetourAccueil h1{
+	width:100%;
+	margin-left:0;
+}
+
+#LienPrecedent{
+	float:left;
+	width:auto;
+	height:auto;
+	background-color : rgba(255, 0, 0, 0.7);
+	border: 2px solid black;
+}
+
+#LienSuivant{
+	width: auto;
+	height:auto;
+	float:right;
+	border: 2px solid black;
+	background-color : rgba(255, 0, 0, 0.7);
+}
+
+#LienPrecedent a:visited , #LienPrecedent a{
+	color:rgb(255, 245, 232);
+}
+
+#LienSuivant a:visited , #LienSuivant a{
+	color:rgb(255, 245, 232);
+}
+
+#LienPrecedent h2{
+	border:none;
+	margin-top : 0px;
+	margin-bottom : 0px;
+}
+
+#LienSuivant h2{
+	border:none;
+	margin-top : 0px;
+	margin-bottom : 0px;
+}
+
+#Pokemon{
+	clear:both;
+}
+
+#Image{
+	float:right;
+	height:25em;
+	width:30%;
+	margin-right:5%;
+}
+
+img{
+	height:25em;
+	width:100%;
+}
+
+#EvolutionPokemon{
+	float:left;
+	width:54%;
+}
+
+#TableEntry{
+	width:45%;
+}
+
+.Fire{
+	background: rgb(255, 0, 0);
+	color:rgb(255, 245, 232);
+}
+
+.Water{
+	background: rgb(0, 191, 255);
+	color:rgb(255, 245, 232);
+}
+
+.Grass{
+	background: rgb(127, 255, 0);
+}
+
+.Poison{
+	background: rgb(139, 0, 139);
+	color:rgb(255, 245, 232);
+}
+
+.Ground{
+	background: rgb(205, 133, 63);
+	color:rgb(255, 245, 232);
+}
+
+.Steel{
+	background: rgb(176, 196, 222);
+}
+
+.Flying{
+	background: rgb(173, 216, 230);
+}
+
+.Normal{
+	background: rgb(230, 230, 250);
+}
+
+.Fighting{
+	background: rgb(178, 34, 34);
+	color:rgb(255, 245, 232);
+}
+
+.Electric{
+	background: rgb(255, 215, 0);
+}
+
+.Psychic{
+	background: rgb(255, 20, 147);
+}
+
+.Rock{
+	background: rgb(160, 82, 45);
+	color:rgb(255, 245, 232);
+}
+
+.Ice{
+	background: rgb(64, 224, 208);
+}
+
+.Bug{
+	background: rgb(128, 128, 0);
+}
+
+.Dragon{
+	background: rgb(102, 51, 153);
+	color:rgb(255, 245, 232);
+}
+
+.Ghost{
+	background: rgb(128, 0, 128);
+	color:rgb(255, 245, 232);
+}
+
+.Dark{
+	background: rgb(105, 105, 105);
+	color:rgb(255, 245, 232);
+}
+
+.Fairy{
+	background: rgb(255, 105, 180);
+}
+.None{
+	background: rgb(255, 245, 232);
+}
