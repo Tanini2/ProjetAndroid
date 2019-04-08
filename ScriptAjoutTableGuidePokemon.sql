@@ -83,10 +83,11 @@ CREATE TABLE IF NOT EXISTS tblpokemonendroit (
 	pourcentageMatin	varchar(50)		NOT NULL,
 	pourcentageJour		varchar(50)		NOT NULL,
 	pourcentageNuit		varchar(50)		NOT NULL,
-	PRIMARY KEY(noEndroit, noPokemon, versions, zoneAttrape),
+	PRIMARY KEY(noEndroit, noPokemon, versions, zoneAttrape, typeAttrape),
 	FOREIGN KEY(noEndroit) REFERENCES tblendroit(noEndroit),
 	FOREIGN KEY(noPokemon) REFERENCES tblpokemon(noPokemon),
-	FOREIGN KEY(zoneAttrape) REFERENCES tblzoneattrape(noZone)
+	FOREIGN KEY(zoneAttrape) REFERENCES tblzoneattrape(noZone),
+	FOREIGN KEY(typeAttrape) REFERENCES tbltypeattrape(noType)
 ) ENGINE=INNODB;
 
 CREATE TABLE IF NOT EXISTS tblplaceinterest(
