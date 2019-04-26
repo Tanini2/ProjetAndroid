@@ -18,8 +18,8 @@ $sql = "SELECT tblpokemon.NoGeneration,tblpokemon.NoPokemon,tblpokemon.NomPokemo
 			FROM tblpokemon,
 			(SELECT tbltype.NoType, tbltype.NomType,tblpokemon.NoPokemon FROM tblpokemon INNER JOIN tbltype ON tbltype.NoType = tblpokemon.Type1) AS tblType1,
 			(SELECT tbltype.NoType,tbltype.NomType,tblpokemon.NoPokemon FROM tblpokemon LEFT JOIN tbltype2pokemon ON tbltype2pokemon.NoPokemon = tblpokemon.NoPokemon LEFT JOIN tbltype ON tbltype2pokemon.Type2 = tbltype.NoType) AS tblType2 
-			WHERE tblpokemon.NoPokemon = tblType1.NoPokemon  AND tblType1.NoPokemon = tblType2.NoPokemon AND tblpokemon.NoPokemon = ".$_GET['noPokemon']."
-			ORDER BY tblpokemon.NoPokemon  ASC";
+			WHERE tblpokemon.NoPokemon = tblType1.NoPokemon  AND tblType1.NoPokemon = tblType2.NoPokemon AND tblpokemon.NoGeneration = ".$_GET['noGeneration']."
+			ORDER BY tblpokemon.NoPokemon";
 //Prépare la query
 $stmt = $conn->query($sql);
 //"Bind" les résultats aux variables
