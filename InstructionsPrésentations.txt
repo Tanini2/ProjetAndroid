@@ -1,0 +1,18 @@
+30 minutes
+Aplication au complet
+	Expliquer ce que fait quoi
+Nouvelle technologie
+	Adaptation
+	Formation
+	Matière déjà vue
+	C'est quoi
+	Classe créée
+	Comment ça fonctionne
+	Pourquoi avoir choisi celle-là?
+Processus Projet
+	Analyse
+	Itération
+	Estimation
+	Si c'était à refaire? Quoi changer?
+	Grosses erreurs/Gros blocage. Quoi garder?
+	Choix techniques
